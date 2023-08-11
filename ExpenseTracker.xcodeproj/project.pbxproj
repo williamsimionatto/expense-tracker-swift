@@ -15,6 +15,7 @@
 		AC0861002A8694BB00E2E0E5 /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0860FF2A8694BB00E2E0E5 /* ExpenseTrackerUITests.swift */; };
 		AC0861022A8694BB00E2E0E5 /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0861012A8694BB00E2E0E5 /* ExpenseTrackerUITestsLaunchTests.swift */; };
 		AC5231412A86FDF700B435ED /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5231402A86FDF700B435ED /* Extensions.swift */; };
+		AC5231432A8701BB00B435ED /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5231422A8701BB00B435ED /* TransactionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		AC0860FF2A8694BB00E2E0E5 /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		AC0861012A8694BB00E2E0E5 /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AC5231402A86FDF700B435ED /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AC5231422A8701BB00B435ED /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		AC0860E32A8694B800E2E0E5 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				AC5231422A8701BB00B435ED /* TransactionModel.swift */,
 				AC0860E42A8694B800E2E0E5 /* ExpenseTrackerApp.swift */,
 				AC0860E62A8694B800E2E0E5 /* ContentView.swift */,
 				AC5231402A86FDF700B435ED /* Extensions.swift */,
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5231432A8701BB00B435ED /* TransactionModel.swift in Sources */,
 				AC0860E72A8694B800E2E0E5 /* ContentView.swift in Sources */,
 				AC5231412A86FDF700B435ED /* Extensions.swift in Sources */,
 				AC0860E52A8694B800E2E0E5 /* ExpenseTrackerApp.swift in Sources */,
